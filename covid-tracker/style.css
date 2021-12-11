@@ -1,0 +1,97 @@
+body {
+  background-color: rgb(138, 230, 225);
+  margin: 0;
+  padding: 0;
+}
+
+.bgvideo {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bgvideo video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.bgvideo .content {
+  position: relative;
+  z-index: 1;
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+#navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #292929;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 0 auto;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: whitesmoke;
+  opacity: 70%;
+  transition: opacity 0.3s;
+}
+
+#navbar a:hover {
+  opacity: 100%;
+  text-shadow: 0.05rem 0.05rem rgb(148, 148, 148);
+}
+
+#navbar h3 {
+  padding: 0 2rem;
+}
+
+#main-middle-container {
+  background-color: whitesmoke;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 450px;
+  margin: 0px auto;
+  margin-top: 5%;
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+}
+
+#input-area {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.box-label {
+  display: inline;
+  font-size: large;
+}
+
+#output-area {
+  visibility: hidden;
+}
+
+#country-select {
+  display: inline-block;
+  margin-left: 10px;
+  width: 200px;
+  vertical-align: top;
+  line-height: 28px;
+}
+
+.data-display {
+  display: inline-block;
+  margin: 1% auto;
+  text-align: left;
+  width: 40%;
+}

@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Shop</title>
+    <!-- bootstrap css-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Quicksand:wght@600&family=Ubuntu:ital,wght@1,500&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <!-- custom css -->
+    <link href="shop/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar  -->
+    <div id="navbar">
+      <a href = "index.html"><h3>Home</h3></a>
+      <a href="#shopping-section"><h3>Shop</h3></a>
+      <a href="covid-tracker/index.html"><h3>Covid-19</h3></a>
+    </div>
+
+    <!-- First section  -->
+    <section id="opening-section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 center-heading">
+            <h1 class="heading-front">The<br>Sanctity<br>Ayurveda<br>Shop</h1>
+          </div>
+          <div class="col-lg-8">
+            <!-- carousel -->
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
+              <div class="carousel-inner">
+
+                <div class="carousel-item active" data-bs-interval="8000">
+                  <h2><span><img src="shop/icons/opening.png" class="quote-open"></span>I am proud to be a part<br>of The Sanctity Ayurveda family.<span><img src="shop/icons/closing.png" class="quote-close"></span></h2>
+                  <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 img-left">
+                      <img src="shop/images/neeraj.jpg" class="face-image">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 text-right">
+                      <div>
+                        <h3>Neeraj Chopra</h3>
+                        <h4>Indian Olympic Gold Medallist</h4>
+                        <h4>Our Brand Ambassador</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="8000">
+                  <h2><span><img src="shop/icons/opening.png" class="quote-open"></span>Most of our patients rely on this online shop to get their medicines, owing to their discounted pricing.<span><img src="shop/icons/closing.png" class="quote-close"></span></h2>
+                  <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 img-left">
+                      <img src="shop/images/doctor.PNG" class="face-image">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 text-right">
+                      <div>
+                        <h3>Dr. Shivani Chopra</h3>
+                        <h4>Indian Surgeon</h4>
+                        <h4>AIIMS, New Delhi</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="8000">
+                  <h2><span><img src="shop/icons/opening.png" class="quote-open"></span>Most of the pharmacies and online stores don't deliver to my area, but they do. Thanks for being there.<span><img src="shop/icons/closing.png" class="quote-close"></span></h2>
+                  <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 img-left">
+                      <img src="shop/images/dharavi_man.jpg" class="face-image">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 text-right">
+                      <div>
+                        <h3>Ram Vilas</h3>
+                        <h4>A resident of Dharavi, Maharashtra</h4>
+                        <h4>Our loyal customer</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="8000">
+                  <h2><span><img src="shop/icons/opening.png" class="quote-open"></span>I am able to go to school and study, that too free of cost. Thank you so much ❣<span><img src="shop/icons/closing.png" class="quote-close"></span></h2>
+                  <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 img-left">
+                      <img src="shop/images/girl_student.jpg" class="face-image">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 text-right">
+                      <div>
+                        <h3>Naina</h3>
+                        <h4>A nine-year old from Prayagraj, UP</h4>
+                        <h4>One of the students studying under the aegis of our organization's initiative</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Second section  -->
+    <section id="features-section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="feature-box col-lg-4 col-md-6">
+            <img src="shop/icons/india.png" alt="india" />
+            <h3>Great connectivity.</h3>
+            <p><em>200+</em> mini outlets all over India spanning across all the major cities and villages</p>
+          </div>
+
+          <div class="feature-box col-lg-4 col-md-6">
+            <img src="shop/icons/clock.png" alt="clock" />
+            <h3>Assured on-time delivery.</h3>
+            <p>Even at times with high workload, we are able to deliver your order within <em>5 days</em></p>
+          </div>
+
+          <div class="feature-box col-lg-4 col-md-6">
+            <img src="shop/icons/love.png" alt="love" />
+            <h3>For a better tomorrow.</h3>
+            <p><em>$2</em> contribution towards upliftment of child illiteracy for every 10th order that we receive</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Shopping area  -->
+    <section id="shopping-section">
+      <div id="shop-container">
+        <div id="shop-top-area">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 center-shop">
+                <h5>
+                  NOTE: <em>To purchase Schedule H drugs, prescription has to be furnished at the time of delivery.</em>
+                </h5>
+              </div>
+              <div class="col-lg-3 col-md-3 center-shop">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Search items" aria-label="Search items" aria-describedby="shop-search-btn" id="shop-search-bar">
+                  <button class="btn btn-secondary" type="button" id="shop-search-btn">Go</button>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 center-shop">
+                <a href="#" class="shop-btn view-cart-btn">VIEW CART</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="shop-cards-area container-fluid">
+          <div class="row">
+
+            <!-- Card 1 -->
+            <div class="col-lg-4 col-md-6 card-spacing">
+              <div class="card">
+                <div class="overlay-container">
+                  <div class="card-top-part">
+                    <img src="shop/images/med/dettol_60ml.jpg" class="card-img-top">
+                  </div>
+                  <div class="description-overlay description-overlay-blur">
+                    <div>
+                      <h6>
+                        Dettol Antiseptic Liquid provides protection to you and your family against illness-causing germs and comes in a fresh pine fragrance. The topical antiseptic liquid sanitizes your home and helps maintain your personal hygiene.
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Dettol Antiseptic Liquid 60ml</h5>
+                  <p class="card-text">Price: ₹ 30.25</p>
+                  <div class="add-to-cart">
+                    <a href="#" class="btn btn-outline-secondary">ADD TO CART</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-lg-4 col-md-6 card-spacing">
+              <div class="card">
+                <div class="overlay-container">
+                  <div class="card-top-part">
+                    <img src="shop/images/med/iodex_40gm.jpg" class="card-img-top">
+                  </div>
+                  <div class="description-overlay description-overlay-blur">
+                    <div>
+                      <h6>
+                        Iodex is a multi purpose balm that provides a warm and soothing effect and helps to reduce the inflammation and relieves the pain. It helps to provide a warming action upon massage that helps in reducing muscular inflammation and gives relief. 
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Iodex Body Pain Expert 40gm</h5>
+                  <p class="card-text">Price: ₹ 140.00</p>
+                  <div class="add-to-cart">
+                    <a href="#" class="btn btn-outline-secondary">ADD TO CART</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-lg-4 col-md-6 card-spacing">
+              <div class="card">
+                <div class="overlay-container">
+                  <div class="card-top-part">
+                    <img src="shop/images/med/moov_50gm.jpg" class="card-img-top">
+                  </div>
+                  <div class="description-overlay description-overlay-blur">
+                    <div>
+                      <h6>
+                        This analgesic (or pain-relieving) cream is a First Aid Kit must-have, with the power of "Four Active Ingredients". These penetrate deep inside to produce warmth that relaxes the muscles and help you recover fast.
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Moov Pain Relief Cream 50gm</h5>
+                  <p class="card-text">Price: ₹ 152.15</p>
+                  <div class="add-to-cart">
+                    <a href="#" class="btn btn-outline-secondary">ADD TO CART</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-lg-4 col-md-6 card-spacing">
+              <div class="card">
+                <div class="overlay-container">
+                  <div class="card-top-part">
+                    <img src="shop/images/med/vaporub_50ml.jpg" class="card-img-top">
+                  </div>
+                  <div class="description-overlay description-overlay-blur">
+                    <div>
+                      <h6>
+                        Vicks VapoRub gives you 8 hours of relief from cough and cold so you can enjoy a full night of restful sleep, even with a cold. It uses Eucalyptus Oil, Menthol, and Camphor as active ingredients.
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Vicks Vaporub 50ml</h5>
+                  <p class="card-text">Price: ₹ 136.30</p>
+                  <div class="add-to-cart">
+                    <a href="#" class="btn btn-outline-secondary">ADD TO CART</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-lg-4 col-md-6 card-spacing">
+              <div class="card">
+                <div class="overlay-container">
+                  <div class="card-top-part">
+                    <img src="shop/images/med/sugarfree_100gm.jpg" class="card-img-top">
+                  </div>
+                  <div class="description-overlay description-overlay-blur">
+                    <div>
+                      <h6>
+                        Sugar-Free Gold is your healthier alternative to sugar. It is made from Aspartame, a protein derivative. It is a nutritious, safe and ideal low-calorie sugar substitute, giving you the sweetness and taste of sugar but with negligible calories to worry about!
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Sugar Free Gold Powder 100gm</h5>
+                  <p class="card-text">Price: ₹ 145.00</p>
+                  <div class="add-to-cart">
+                    <a href="#" class="btn btn-outline-secondary">ADD TO CART</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-lg-4 col-md-6 card-spacing">
+              <div class="card">
+                <div class="overlay-container">
+                  <div class="card-top-part">
+                    <img src="shop/images/med/accucheck_100.jpg" class="card-img-top">
+                  </div>
+                  <div class="description-overlay description-overlay-blur">
+                    <div>
+                      <h6>
+                        Accu-Chek Active strip is a hassle-free product. The blood is automatically absorbed by the strip and spreads quickly across it. The system then provides a fast and accurate result. To ensure accurate measurement, Accu-Chek Active allows you to double-check the result.
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Accu-Chek Active Test Strips 50's</h5>
+                  <p class="card-text">Price: ₹ 809.25</p>
+                  <div class="add-to-cart">
+                    <a href="#" class="btn btn-outline-secondary">ADD TO CART</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 7 -->
+            <div class="col-lg-4 col-md-6 card-spacing">
+              <div class="card">
+                <div class="overlay-container">
+                  <div class="card-top-part">
+                    <img src="shop/images/med/evion_400mg.jpg" class="card-img-top">
+                  </div>
+                  <div class="description-overlay description-overlay-blur">
+                    <div>
+                      <h6>
+                        Evion contains vitamin E also known as Tocopheryl acetate which is required for the proper functioning of many organs in the body. It is also an antioxidant. It may cause nausea, vomiting, stomach upset, headache, skin rashes or other allergic reactions.
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Evion 400mg Capsule 10's</h5>
+                  <p class="card-text">Price: ₹ 26.16</p>
+                  <div class="add-to-cart">
+                    <a href="#" class="btn btn-outline-secondary">ADD TO CART</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 8 -->
+            <div class="col-lg-4 col-md-6 card-spacing">
+              <div class="card">
+                <div class="overlay-container">
+                  <div class="card-top-part">
+                    <img src="shop/images/med/soap_dettol_125gm.jpg" class="card-img-top">
+                  </div>
+                  <div class="description-overlay description-overlay-blur">
+                    <div>
+                      <h6>
+                        Dettol soap protects from 99.99% germs including virus and bacteria. Recommended by Indian Medical Association (IMA). Contains more than 85% naturally derived ingredients and plant derived cleansers.
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Dettol Soap - Original 125gm</h5>
+                  <p class="card-text">Price: ₹ 53.36</p>
+                  <div class="add-to-cart">
+                    <a href="#" class="btn btn-outline-secondary">ADD TO CART</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 9 -->
+            <div class="col-lg-4 col-md-6 card-spacing">
+              <div class="card">
+                <div class="overlay-container">
+                  <div class="card-top-part">
+                    <img src="shop/images/med/himalaya_liv52.jpg" class="card-img-top">
+                  </div>
+                  <div class="description-overlay description-overlay-blur">
+                    <div>
+                      <h6>
+                        LIV 52 is unparalleled in liver care. The key ingredients Chicory protects the liver against alcohol toxicity. It is also a potent antioxidant, which can be seen by its free radical scavenging property and has hepatoprotective property.
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Himalaya Liv.52 Tablet 100's</h5>
+                  <p class="card-text">Price: ₹ 93.60</p>
+                  <div class="add-to-cart">
+                    <a href="#" class="btn btn-outline-secondary">ADD TO CART</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 10 -->
+            <div class="col-lg-4 col-md-6 card-spacing">
+              <div class="card">
+                <div class="overlay-container">
+                  <div class="card-top-part">
+                    <img src="shop/images/med/safi_500ml.jpg" class="card-img-top">
+                  </div>
+                  <div class="description-overlay description-overlay-blur">
+                    <div>
+                      <h6>
+                        Hamdard Safi, a blend of essential herbal extracts acts as a natural blood purifier to keep your skin pimple free and glowing. Neem purifies the blood, chiraita keeps the skin toxin-free while senna keeps the stomach and Tulasi helps improves the blood circulation and makes your skin glow.
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Hamdard Safi Syrup 500 ml</h5>
+                  <p class="card-text">Price: ₹ 209.00</p>
+                  <div class="add-to-cart">
+                    <a href="#" class="btn btn-outline-secondary">ADD TO CART</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div id="shop-bottom-area">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 center-shop">
+                <h5>Sorry! We could not find any such items</h5>
+              </div>
+              <div class="col-lg-6 col-md-6 right-shop">
+                <a href="#" class="shop-btn checkout-btn">PROCEED TO CHECKOUT</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <footer>
+      <!-- bootstrap js  -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"
+      ></script>
+      <!-- custom js  -->
+      <script src="shop/script.js"></script>
+    </footer>
+  </body>
+</html>
